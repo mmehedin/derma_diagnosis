@@ -3,6 +3,8 @@
 
 -------
 https://challenge2018.isic-archive.com/
+https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection
+https://github.com/ImageMarkup/isic-archive
 
 ## Summary
 This challenge is broken into three separate tasks:
