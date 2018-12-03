@@ -12,3 +12,9 @@ This challenge is broken into three separate tasks:
 #### Task 3: Disease Classification: https://challenge2018.isic-archive.com/task3/
 
 
+#### Task 2:
+- pigment_network
+- negative_network
+- streaks
+- milia_like_cyst
+- globules
