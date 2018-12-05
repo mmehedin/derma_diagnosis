@@ -36,7 +36,7 @@ public class CallResultAPI {
 
     ResultInterface resultInterface;
     private static final OkHttpClient client = new OkHttpClient();
-    private static final String URL = "http://ec2-18-212-171-97.compute-1.amazonaws.com:8090/";
+    private static final String URL = "http://ec2-54-208-102-107.compute-1.amazonaws.com:8090/";
 
     public static void getResult(final File sourceImageFile, final Handler handler) {
 
