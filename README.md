@@ -20,3 +20,6 @@ This challenge is broken into three separate tasks:
 - streaks
 - milia_like_cyst
 - globules
+
+#### Models:
+https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
