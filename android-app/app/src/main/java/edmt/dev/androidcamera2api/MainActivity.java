@@ -7,6 +7,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ImageFormat;
 import android.graphics.Paint;
+import android.graphics.PixelFormat;
+import android.graphics.PorterDuff;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
@@ -29,7 +31,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Size;
 import android.util.SparseIntArray;
+import android.view.MotionEvent;
 import android.view.Surface;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Button;
@@ -74,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
     private boolean mFlashSupported;
     private Handler mBackgroundHandler;
     private HandlerThread mBackgroundThread;
+    SurfaceView surfaceView;
 
     CameraDevice.StateCallback stateCallback = new CameraDevice.StateCallback() {
         @Override
@@ -101,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textureView = (TextureView)findViewById(R.id.textureView);
+        textureView = findViewById(R.id.textureView);
         //From Java 1.4 , you can use keyword 'assert' to check expression true or false
         assert textureView != null;
         textureView.setSurfaceTextureListener(textureListener);
@@ -121,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
                 takePicture();
             }
         });
+        addSurface();
     }
 
     private void takePicture() {
@@ -277,7 +284,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
                 },REQUEST_CAMERA_PERMISSION);
                 return;
             }
-            manager.openCamera(cameraId,stateCallback,null);
+            manager.openCamera(cameraId, stateCallback,null);
 
         } catch (CameraAccessException e) {
             e.printStackTrace();
@@ -322,10 +329,11 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
     protected void onResume() {
         super.onResume();
         startBackgroundThread();
-        if(textureView.isAvailable())
+        if(textureView.isAvailable()) {
             openCamera();
-        else
+        } else {
             textureView.setSurfaceTextureListener(textureListener);
+        }
     }
 
     @Override
@@ -357,4 +365,38 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
         text.setText(result);
     }
 
+    public void addSurface() {
+        textureView = findViewById(R.id.textureView);
+
+        surfaceView = findViewById(R.id.surfaceView);
+        surfaceView.setZOrderOnTop(true);
+        SurfaceHolder mHolder = surfaceView.getHolder();
+        mHolder.setFormat(PixelFormat.TRANSPARENT);
+        mHolder.addCallback(new SurfaceHolder.Callback() {
+            @Override
+            public void surfaceCreated(SurfaceHolder holder) {
+                Canvas canvas = holder.lockCanvas();
+                if (canvas == null) {
+                } else {
+                    Paint myPaint = new Paint();
+                    myPaint.setColor(Color.rgb(100, 20, 50));
+                    myPaint.setStrokeWidth(10);
+                    myPaint.setStyle(Paint.Style.STROKE);
+                    canvas.drawRect(5, 5, 200, 200, myPaint);
+
+                    holder.unlockCanvasAndPost(canvas);
+                }
+            }
+
+            @Override
+            public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+
+            }
+
+            @Override
+            public void surfaceDestroyed(SurfaceHolder holder) {
+
+            }
+        });
+    }
 }
