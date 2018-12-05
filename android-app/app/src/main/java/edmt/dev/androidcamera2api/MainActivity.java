@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
         }
     };
     private Handler handler;
+    private TextView text;
 
 
     @Override
@@ -108,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
         setContentView(R.layout.activity_main);
 
         textureView = findViewById(R.id.textureView);
+        text = findViewById(R.id.result);
         //From Java 1.4 , you can use keyword 'assert' to check expression true or false
         assert textureView != null;
         textureView.setSurfaceTextureListener(textureListener);
@@ -127,12 +129,14 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
                 takePicture();
             }
         });
-        addSurface();
+//        addSurface();
     }
 
     private void takePicture() {
-        if(cameraDevice == null)
+        text.setText("");
+        if(cameraDevice == null) {
             return;
+        }
         CameraManager manager = (CameraManager)getSystemService(Context.CAMERA_SERVICE);
         try{
             CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraDevice.getId());
@@ -142,8 +146,8 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
                         .getOutputSizes(ImageFormat.JPEG);
 
             //Capture image with custom size
-            int width = 640;
-            int height = 480;
+            int width = 1200;
+            int height = 1000;
             if(jpegSizes != null && jpegSizes.length > 0)
             {
                 width = jpegSizes[0].getWidth();
@@ -361,7 +365,11 @@ public class MainActivity extends AppCompatActivity implements ResultInterface {
 
     @Override
     public void displayResult(String result) {
-        TextView text = findViewById(R.id.result);
+        if(result.equals("Malign")) {
+            text.setTextColor(Color.RED);
+        } else {
+            text.setTextColor(Color.GREEN);
+        }
         text.setText(result);
     }
 
