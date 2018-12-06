@@ -29,7 +29,7 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 ![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
 ![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
 ![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
-![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png), (https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
+![alt text]((https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png), (https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png))
 
 
 
