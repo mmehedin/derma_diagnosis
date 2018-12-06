@@ -26,3 +26,11 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 #### Results:
 ![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
+![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
+![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
+![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
+![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app.png)
+
+
+
+
