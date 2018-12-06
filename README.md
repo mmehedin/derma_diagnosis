@@ -28,7 +28,7 @@ This challenge is broken into three separate tasks:
 
 ## Models:
 
-==================
+---------------
 
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
@@ -47,7 +47,7 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 ## Android App:
 
-=================
+-------------------
 
 ![Application android](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png) ![](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
 
