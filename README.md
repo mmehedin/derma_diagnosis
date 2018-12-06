@@ -20,7 +20,6 @@ This challenge is broken into three separate tasks:
 
 #### Task 2:
 
----------------
 - pigment_network
 - negative_network
 - streaks
@@ -28,11 +27,13 @@ This challenge is broken into three separate tasks:
 - globules
 
 #### Models:
+
+==================
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
-================
 
-Results:
+
+#### Results:
 
 =============
 
@@ -42,9 +43,8 @@ Results:
 ![Failed classification](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
 
 
-=================
 
-Android App:
+#### Android App:
 
 =================
 
