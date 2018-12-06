@@ -25,11 +25,11 @@ This challenge is broken into three separate tasks:
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 #### Results:
-![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
-![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
-![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
-![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
-![alt text]((https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png), (https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png))
+![ImageNet OutOfBox](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
+![Transfer learning](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
+![Validation](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
+![Failed classification](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
+![Application android](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png) ![](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
 
 
 
