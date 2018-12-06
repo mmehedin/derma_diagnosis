@@ -30,7 +30,7 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 ![Transfer learning](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
 ![Validation](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
 ![Failed classification](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
-#### Android App:
+Android App:
 =================
 ![Application android](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png) ![](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
 
