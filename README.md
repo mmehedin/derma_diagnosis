@@ -14,11 +14,11 @@ https://github.com/ImageMarkup/isic-archive
 This challenge is broken into three separate tasks:
 
 #### Task 1: Lesion Segmentation: https://challenge2018.isic-archive.com/task1/ 
-#### Task 2: Lesion Attribute Detection: https://challenge2018.isic-archive.com/task2/
-#### Task 3: Disease Classification: https://challenge2018.isic-archive.com/task3/
+### Task 2: Lesion Attribute Detection: https://challenge2018.isic-archive.com/task2/
+### Task 3: Disease Classification: https://challenge2018.isic-archive.com/task3/
 
 
-#### Task 2:
+### Task 2:
 
 - pigment_network
 - negative_network
@@ -26,16 +26,17 @@ This challenge is broken into three separate tasks:
 - milia_like_cyst
 - globules
 
-#### Models:
+## Models:
 
 ==================
+
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 
 
-#### Results:
+## Results:
 
-=============
+----------------
 
 ![ImageNet OutOfBox](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
 ![Transfer learning](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
@@ -44,7 +45,7 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 
 
-#### Android App:
+## Android App:
 
 =================
 
