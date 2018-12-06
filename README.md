@@ -23,3 +23,6 @@ This challenge is broken into three separate tasks:
 
 #### Models:
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
+
+#### Results:
+![alt text](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
