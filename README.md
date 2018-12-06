@@ -55,6 +55,6 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 -------------------
 
-![Gihub work viz](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/gource.mp4)
+[![Gihub work viz](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/temp/gource.png)] (https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gource.mp4)
 
 
