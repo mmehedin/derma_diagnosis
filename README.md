@@ -51,6 +51,10 @@ https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
 ![Application android](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png) ![](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
 
+## Git Viz: 
 
+-------------------
+
+![Gihub work viz](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/gource.mp4)
 
 
