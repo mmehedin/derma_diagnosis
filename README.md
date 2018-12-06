@@ -6,7 +6,9 @@ https://challenge2018.isic-archive.com/
 https://challenge.kitware.com/#challenge/n/ISIC_2017%3A_Skin_Lesion_Analysis_Towards_Melanoma_Detection
 https://github.com/ImageMarkup/isic-archive
 
+================
 ## Summary
+================
 This challenge is broken into three separate tasks:
 
 #### Task 1: Lesion Segmentation: https://challenge2018.isic-archive.com/task1/ 
@@ -24,12 +26,15 @@ This challenge is broken into three separate tasks:
 #### Models:
 https://drive.google.com/open?id=14PGEQCRTsCItBvxM7yqYyIPsKz-xYlN1
 
-#### Results:
+=============
+Results:
 =============
 ![ImageNet OutOfBox](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/imagenet.png)
 ![Transfer learning](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/net.png)
 ![Validation](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/graph.png)
 ![Failed classification](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/gb.png)
+
+=================
 Android App:
 =================
 ![Application android](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_ben.png) ![](https://raw.githubusercontent.com/mmehedin/derma_diagnosis/master/temp/app_mal.png)
